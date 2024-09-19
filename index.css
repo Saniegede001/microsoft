@@ -1,0 +1,285 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+  width: fit-content;
+  /* background-color: red; */
+}
+
+/* navbar styles starts here  */
+nav {
+  width: 96%;
+  margin: auto;
+}
+
+.logo {
+  width: 120px;
+  position: relative;
+  top: -3px;
+  margin-right: 10px;
+}
+.nav-link {
+  margin-right: 12px;
+ 
+}
+
+.nav-link:hover {
+  border-bottom: black 3px solid;
+  padding-bottom: 0;
+  transition: all;
+  transition-duration: 0.2s;
+}
+/* navbar styles ends here  */
+
+/* container1 styles starts here  */
+.container1 {
+  background: url(images/slide1.png)  no-repeat center center/cover;
+  height: 400px;
+  width: 96%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 .text {
+  position: relative;
+  top: 60px;
+  text-align: center;
+}
+
+.surface {
+  font-weight: bold;
+  margin: 14px auto;
+}
+.shop-now {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 14px auto;
+  background-color: #1d1d1d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+/* container1 styles ends here  */
+
+/* container2 styles starts here  */
+
+.container2 {
+  width: 96%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.container2 .box img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.container2 .box {
+  border: none;
+  width: 100%;
+}
+
+.container2 .box .head {
+  font-size: 20px;
+}
+
+.container2 .box a {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33, 113, 194);
+}
+/* container2 styles ends here  */
+
+/* container3 styles starts here  */
+.container3 {
+  width: 96%;
+  height: 350px;
+  margin: 40px auto;
+  background: url(images/xbox.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+}
+
+.container3 .content {
+  width: 50%;
+  padding: 40px;
+  /* background: blue; */
+}
+
+.container3 .content p {
+  font-size: large;
+}
+.container3 .content h1 {
+  font-size: 30px;
+}
+
+.container3 .content button {
+  font-size: 18px;
+  font-weight: bolder;
+  margin: 14px auto;
+  background-color: #1d1d1d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+}
+/* container3 styles ends here  */
+
+/* container4 styles starts here  */
+.container4 {
+  width: 96%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.container4 .box {
+  border: none;
+
+}
+
+.container4 .box img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.container4 .box .head {
+  font-size: 20px;
+}
+
+.container4 .box a {
+  font-size: large;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33, 113, 194);
+}
+/* container4 styles ends here  */
+
+/* container5 styles starts here  */
+.container5 {
+  width: 96%;
+  height: 350px;
+  margin: 10px auto;
+  background: url(images/carbon.jpg);
+  background-repeat: none;
+  background-size: cover;
+  padding-top: 40px;
+}
+
+.container5 .content {
+  width: 52%;
+  padding: 40px;
+  color: #fff;
+}
+
+.container5 .content h2 {
+  font-size: 28px;
+}
+
+.container5 .content p {
+  font-size: large;
+}
+
+.container5 .content button {
+  font-size: 14px;
+  font-weight: bolder;
+  margin: 14px auto;
+  background-color: rgba(255, 255, 255, 0.895);
+  color: #0a0a0a;
+  padding: 15px 20px;
+  border: none;
+}
+/* container5 styles ends here  */
+
+/* container6 styles starts here  */
+.container6 {
+  width: 96%;
+  margin: 30px auto;
+}
+
+.container6 span {
+  font-size: larger;
+  margin-right: 10px;
+}
+
+.container6 i {
+  font-size: 40px;
+  color: blue;
+  margin-right: 20px;
+}
+.container6 .facebook {
+  color: rgb(23, 14, 117);
+}
+.container6 .twitter {
+  color: rgb(0, 98, 255);
+}
+.container6 .linkedin {
+  color: rgb(13, 38, 229);
+}
+
+/* footer styles starts here  */
+footer {
+  background-color: rgb(230, 230, 230);
+  padding-top: 30px;
+}
+
+footer .container7 {
+  width: 98%;
+  margin: auto;
+  padding: 10px 4px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 20px;
+
+}
+
+footer .container7 .card {
+  background-color: rgb(230, 230, 230);
+  border: none;
+}
+
+footer .container7 .card h3 {
+  font-size: 16px;
+}
+
+footer .container7 .card a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  margin: 16px 1px;
+}
+
+footer .container8 {
+  text-align: center;
+  width: 98%;
+  margin: auto;
+  padding: 20px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+}
+
+.container8 span {
+  opacity: 60%;
+}
+
+footer .container8 span, .container8 a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+  margin: 18px;
+  padding-right: 10px;
+  line-height: 1.4;
+  display: block;
+  border-right: 1px solid #999;
+}
+
